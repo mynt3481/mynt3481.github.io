@@ -1,0 +1,546 @@
+*{margin: 0; padding: 0;}
+
+.formnhe {
+    padding-top: 50px;
+    padding-bottom: 50px;
+} 
+
+.container.others {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+span.gt {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-right: 30px;
+  width: 130px;
+  display: inline-block;
+}
+
+span.nd1{
+      line-height: 30px;
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: bold;
+}
+html,body{
+  /*width: 100%;
+  height: 100%;*/
+  color: #4b4b4b;
+  font-family: 'Montserrat', sans-serif;
+  /*font-size: 14px;*/
+
+}
+
+.nd i.fa.fa , .mxh i.fa.fa{
+    font-size: 14px;
+    padding-right: 20px;
+    color: #4b4b4b;
+    font-weight: 200;
+
+}
+
+.mxh i.fa.fa{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    transition:0.35s;
+
+}
+.mxh i.fa.fa:hover{
+    color: #f19598;
+}
+
+b {
+    font-size: 23px;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    padding-bottom: 8px;
+}
+.nen{
+  background-image: url(images/nen1.jpg);
+  /* background-size: cover; */
+  /*width: 100%;
+  height: 100%;*/
+  background-attachment: fixed;
+  margin: 19px;
+  background-position: 50% 0%;
+  border-radius: 2px;
+}
+.nen2{
+    background-color: #F0E3EA;
+    background-attachment: fixed;
+    margin: 19px;
+  background-position: 50% 0;
+  border-radius: 2px;
+}
+a.navbar-brand {
+  color:#4b4b4b!important;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);}
+
+ul.nav.navbar-nav {
+    float: right;
+}
+
+nav.navbar.navbar-light.bg-faded.menutren {
+    background-color: transparent;
+} 
+
+.navbar-light .navbar-nav .active>.nav-link{
+  color: #f19598;
+}
+
+a.nav-link {
+    padding-left: 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+a.dropdown-item {
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+    transition: 0.36S;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color:  #f19598;
+    text-decoration: none;
+}
+
+
+.others .card {
+    border: 5px solid rgb(255, 255, 255);
+}
+.others a{
+}
+.card:hover:after {
+    display: none;
+    cursor: zoom-in;
+}
+
+.card:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+   /* background: rgba(0, 0, 0, 0.57);*/
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transition: 0.4s;
+}
+
+.noidung{
+  margin-top: 200px;
+}
+
+.noidung p.nd{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+
+}
+.noidung p.td{
+  text-transform: uppercase;
+  color: #f19598;
+  font-size: 23px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+.navbar-light .navbar-nav .nav-link {
+     color: #4b4b4b;
+     transition: 0.36S;
+}
+ .navbar-light .navbar-nav .open>.nav-link, .navbar-light .navbar-nav .open>.nav-link:focus, .navbar-light .navbar-nav .open>.nav-link:hover,.navbar-light .navbar-nav .nav-link:hover{
+     color: #f19598;
+}
+
+#skill {
+    list-style: none;
+    padding-top: 30px;
+}
+ 
+#skill li {
+    margin-bottom: 50px;
+    background: rgba(0, 0, 0, 0.0666667);
+    height: 8px;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+ 
+#skill span.nd2{
+    position: relative;
+    top: -30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+ 
+.expand {
+    height: 8px;
+    background: rgb(192, 227, 231);
+    position: absolute;
+}
+
+.web {
+    width: 80%;
+    -moz-animation: web 6S ease-out;
+    -webkit-animation: web 6S ease-out;
+    background-color: rgb(129, 129, 148);
+}
+ 
+.html {
+    width: 70%;
+    -moz-animation: html 6S ease-out;
+    -webkit-animation: html 6S ease-out;
+    background-color: rgb(133, 176, 182);
+}
+ 
+.responsive {
+    width: 45%;
+    -moz-animation: responsive 6S ease-out;
+    -webkit-animation: responsive 6S ease-out;
+    background-color: rgb(164, 228, 231);
+}
+ 
+.jquery {
+    width: 55%;
+    -moz-animation:jquery 6S ease-out;
+    -webkit-animation: jquery 6S ease-out;
+}
+ 
+.communi {
+    width: 80%;
+    -moz-animation: communi 7S ease-out;
+    -webkit-animation: communi 7S ease-out;
+     background-color: rgb(129, 129, 148);
+}
+
+.creat {
+    width: 80%;
+    -moz-animation: creat 7S ease-out;
+    -webkit-animation: creat 7S ease-out;
+     background-color: rgb(164, 228, 231);
+}
+
+.mana {
+    width: 85%;
+    -moz-animation: mana 7S ease-out;
+    -webkit-animation: mana 7S ease-out;
+}
+
+.team {
+    width: 90%;
+    -moz-animation: team 7S ease-out;
+    -webkit-animation: team 7S ease-out;
+    background-color: rgb(133, 176, 182);
+}
+
+.photoshop {
+    width: 80%;
+    -moz-animation: photoshop 8S ease-out;
+    -webkit-animation: photoshop 8S ease-out;
+    background-color: rgb(129, 129, 148);
+}
+
+.illustrator {
+    width: 75%;
+    -moz-animation: illustrator 8S ease-out;
+    -webkit-animation: illustrator 8S ease-out;
+    background-color: rgb(133, 176, 182);
+}
+
+.indesign {
+    width: 65%;
+    -moz-animation: indesign 8S ease-out;
+    -webkit-animation: indesign 8S ease-out;
+    background-color: rgb(164, 228, 231);
+}
+
+.sublime {
+    width: 48%;
+    -moz-animation: sublime 8S ease-out;
+    -webkit-animation: sublime 8S ease-out;
+    background-color: rgb(164, 228, 231);
+}
+
+@-moz-keyframes web {
+    0% {
+        width: 0px;
+    }
+ 
+    100% {
+        width: 80%;
+    };
+}
+ 
+@-moz-keyframes html {
+    0% {
+        width: 0px;
+    }
+ 
+    100% {
+        width: 85%;
+    };
+}
+
+ 
+@-moz-keyframes responsive {
+    0% {
+        width: 0px;
+    }
+ 
+    100% {
+        width: 40%;
+    };
+}
+ 
+@-moz-keyframes jquery {
+    0% {
+        width: 0px;
+    }
+ 
+    100% {
+        width: 60%;
+    };
+}
+
+@-webkit-keyframes web {
+    0% {
+        width: 0px;
+    }
+ 
+    100% {
+        width: 80%;
+    };
+}
+ 
+@-webkit-keyframes html {
+    0% {
+        width: 0px;
+    }
+ 
+    100% {
+        width: 85%;
+    };
+}
+ 
+
+ 
+@-webkit-keyframes responsive {
+    0% {
+        width: 0px;
+    }
+ 
+    100% {
+        width: 40%;
+    };
+}
+ 
+@-webkit-keyframes jquery {
+    0% {
+        width: 0px;
+    }
+ 
+    100% {
+        width: 60%;
+    };
+}
+
+@-moz-keyframes communi {
+    0% {
+        width: 0px;
+    }
+ 
+    100% {
+        width: 80%;
+    };
+}
+@-webkit-keyframes communi {
+    0% {
+        width: 0px;
+    }
+ 
+    100% {
+        width: 80%;
+    };
+}
+@-moz-keyframes team {
+    0% {
+        width: 0px;
+    }
+ 
+    100% {
+        width: 90%;
+    };
+}
+@-webkit-keyframes team {
+    0% {
+        width: 0px;
+    }
+ 
+    100% {
+        width: 90%;
+    };
+}
+@-moz-keyframes creat {
+    0% {
+        width: 0px;
+    }
+ 
+    100% {
+        width: 80%;
+    };
+}
+@-webkit-keyframes creat {
+    0% {
+        width: 0px;
+    }
+ 
+    100% {
+        width: 80%;
+    };
+}
+
+@-moz-keyframes mana {
+    0% {
+        width: 0px;
+    }
+ 
+    100% {
+        width: 85%;
+    };
+}
+@-webkit-keyframes mana {
+    0% {
+        width: 0px;
+    }
+ 
+    100% {
+        width: 85%;
+    };
+}
+
+@-moz-keyframes photoshop {
+    0% {
+        width: 0px;
+    }
+ 
+    100% {
+        width: 80%;
+    };
+}
+@-webkit-keyframes photoshop {
+    0% {
+        width: 0px;
+    }
+ 
+    100% {
+        width: 80%;
+    };
+}
+@-moz-keyframes illustrator {
+    0% {
+        width: 0px;
+    }
+ 
+    100% {
+        width: 70%;
+    };
+}
+@-webkit-keyframes illustrator {
+    0% {
+        width: 0px;
+    }
+ 
+    100% {
+        width: 70%;
+    };
+}
+
+@-moz-keyframes indesign {
+    0% {
+        width: 0px;
+    }
+ 
+    100% {
+        width: 70%;
+    };
+}
+@-webkit-keyframes indesign {
+    0% {
+        width: 0px;
+    }
+ 
+    100% {
+        width: 70%;
+    };
+}
+
+@-moz-keyframes sublime {
+    0% {
+        width: 0px;
+    }
+ 
+    100% {
+        width: 60%;
+    };
+}
+@-webkit-keyframes sublime {
+    0% {
+        width: 0px;
+    }
+ 
+    100% {
+        width: 60%;
+    };
+}
+
+button.len {
+    float: right;
+    position: fixed;
+    z-index: 2;
+    bottom: 50px;
+    right: -100px;
+    transition: 0.35s;
+    opacity: 0.5;
+}
+
+button.len:hover{
+    bottom:55px;
+    opacity: 1;
+}
+
+.lenvao{
+    right: 30px!important;
+}
+
+@media(max-width: 768px){
+    h1 {
+    font-size: 50px;
+}
+h4 {
+    font-size: 12px;
+}
+
+@media(max-width: 576px){
+    ul.nav.navbar-nav {
+    float: none; 
+    text-align: center;
+}
+    a.navbar-brand {
+    text-align: center;}
+    b {
+    padding-left: 17px;
+}
+}
