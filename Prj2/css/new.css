@@ -1,0 +1,564 @@
+*{margin: 0; padding: 0;} 
+
+body{
+font-family: 'Nunito Sans', sans-serif;
+font-size: 14px;
+}
+
+a.doimau:hover{
+	color: #dd0b30;
+	text-decoration: none;
+	transition: 0.3s;
+}
+/*---*/
+
+.menutren{
+	background-color: #bab8b8;
+}
+
+ul.nav.navbar-nav.float-sm-right.menutrenphai{
+	padding:10px 0px;
+}
+.navbar-light .navbar-nav .nav-link{
+	color: #191818;
+	font-size: 14px;
+	font-weight: bold;
+	margin-right: 45px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #dd0b30;
+	transition: 0.3s;
+}
+
+.navbar-light .navbar-nav .active>.nav-link{
+	color: #dd0b30;
+}
+
+
+/*HETMENUTREN*/
+
+.slidetren{
+	height: 300px; /*768*/
+	overflow: hidden;
+	position: relative;
+}
+
+.slidetren .anhbg{
+	position: absolute;
+	z-index: 1;
+	top:0;
+	left: 0;
+	animation: zoomlen 15s forwards;
+	width: 100%;
+}
+
+.slidetren .layerden{
+	background-color: rgba(0, 0, 0, 0.7);
+	height: 560px;
+	width: 100%;
+	position: absolute;
+	z-index: 2;
+	top:0;
+	left: 0;
+}
+
+.slidetren .layerchu{
+	position: absolute;
+	z-index: 3;
+	top:25%;
+	left: 50%;
+	color: white;
+	width: 700px;
+	margin-left: -350px;
+	text-align: center;
+	opacity: 0;
+	animation: hienra 1s forwards;
+}
+
+.layerchu h3{
+	font-weight: bold;
+	font-size: 60px;
+	font-family: 'Cormorant Garamond', serif;
+}
+
+.tdphu.so2{
+	font-size: 18px;
+	line-height: 23px;
+	padding-top: 25px;
+	font-weight: 300;
+	color: #c6c5c5;
+}
+
+@-webkit-keyframes hienra{
+	from{top:20%;opacity:0;}
+	to{top:25%;opacity: 1;}
+}
+@-webkit-keyframes zoomlen{
+	from{transform: scale(1.1);}
+	to{transform: scale(1);}
+}
+
+@media(max-width: 768px){
+	
+.slidetren{
+	height: 250px;
+}
+
+.slidetren .layerchu{
+	width: 420px;
+	margin-left: -210px;
+}
+.layerchu h3{
+	font-size: 36px;
+}
+
+.tdphu.so2{
+	font-size: 16px;
+	line-height: 23px;
+}
+}
+
+@media(max-width: 576px){
+	
+.slidetren{
+	height: 250px;
+}
+
+.slidetren .anhbg{
+	width: auto;
+}
+.slidetren .layerchu{
+	width: 320px;
+	margin-left: -160px;
+}
+.layerchu h3{
+	font-size: 30px;
+}
+
+.tdphu.so2{
+	font-size: 13px;
+	line-height: 23px;
+}
+}
+
+/*HETSLIDE*/
+/*csstin*/
+.tin1{
+	width: 100%;
+	height: 385px;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 40px;
+}
+
+
+.layer1{
+	width: 100%;
+	transition: 1s;
+}
+.den{
+	width: 100%;
+	height: 385px;
+	position: absolute;
+	z-index: 2;
+	background-color: rgba(0, 0, 0, 0.41);
+	top: 0;
+	left: 0;
+	transition: 0.4s;
+	opacity: 0;
+}
+.tieude{
+	position: absolute;
+	top: 40px;
+	left: 40px;
+	font-weight: 700;
+	z-index: 3;
+	color:#dd0b30;
+	text-transform: uppercase;
+	font-size: 30px;
+}
+.ngaythang{
+	position: absolute;
+	z-index: 4;
+	top: 80px;
+	left: 40px;
+	color: white;
+	font-size: 15px;
+}
+.nd{
+
+	font-size: 15px;
+	position: absolute;
+	z-index: 5;
+	left: 40px;
+	bottom: -100px;
+	color: #555555;
+	background-color: white;
+	width: 640px;
+	height: 66px;
+	padding-top: 10px;
+	padding-left: 10px;
+	transition: 0.4s;
+}
+
+.tin1:hover .nd{
+	bottom: 0px;
+}
+.tin1:hover .layer1{
+	transform: scale(1.2);
+}
+.tin1:hover .den{
+	opacity: 1;
+}
+/*nut 1 2*/
+.tab{
+	padding-bottom: 40px;
+
+
+}
+.tab a{
+	font-size:18px;
+	font-weight: bold;
+	width: 46px;
+	height: 46px;
+	border:2px solid #dd0b30 ;
+	text-align: center;
+	border-radius: 50%;
+	display: block;
+	line-height: 45px;
+	color: black;
+	transition: 0.4s;
+}
+.tab a:hover{
+	color: white;
+	background: #545454;
+	border:2px solid #545454 ;
+	text-decoration: none;
+
+}
+.tab p{
+	padding-top: 12px;
+	float: right;
+	font-size:  18px;
+	color: #191818;
+}
+/*het css tin trai'*/
+/*css tin phai*/
+
+h3.tdnho{
+	font-size: 18px;
+	color: black;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.aboutus p{
+	font-size: 14px;
+	color: #555555;
+	line-height: 24px;
+	padding-top: 20px;
+	padding-bottom: 45px;
+
+}
+.category ul{
+	padding-top: 20px;
+}
+.category ul li{
+	border-bottom: 1px solid #c4c4c4;
+
+	list-style: none;
+}
+.category ul li a{
+
+	color: #555555;
+	font-size: 14px;
+	font-weight: bold;
+
+}
+a:hover{
+	text-decoration: none;
+}
+.gallery{
+	padding-top: 45px;
+	padding-bottom: 45px;
+}
+.gallery h3{
+	padding-bottom: 20px;
+}
+.tac h3{
+	padding-bottom: 20px;
+}
+.tac a{
+	font-size: 18px;
+	text-decoration: none;
+	color: #191818;
+	border: 2px #464646 solid;
+	padding: 8px;
+	margin-right: 10px;
+	float: left;
+	border-radius: 4px;
+	transition: 0.4s
+}
+.tac ul a{
+	margin-bottom: 5px;
+}
+.tac a:hover{
+	border: 2px #dd0b30 solid;
+
+}
+.post{
+	margin-top: 160px;
+}
+.post ul{
+	padding-top: 20px;
+}
+.post ul li a{
+	font-weight: 600;
+	font-size: 14px;
+	color: #555555;
+	transition: 0.4s
+}
+.post ul li a:hover{
+	color: #dd0b30;
+	text-decoration: none;
+}
+.post ul {
+	padding-left: 30px;
+}
+.post ul li{
+	padding-bottom: 17px;
+}
+/*het css tin phai*/
+
+
+/*css cho phan tin chi tiet*/
+.tin{
+	margin-top: 40px;
+}
+/*css fotet*/
+.footer{
+	height: 300px;
+	padding-top: 58px;
+	padding-bottom: 10px;
+	background-color: #545454;
+	font-size: 12px;
+	color: #e1e1e1;
+}
+b.tdchan{
+	font-size: 14px;
+	border-bottom: 1px solid rgba(236, 232, 232, 0.42);
+	line-height: 30px;
+	display: block;
+	margin-bottom: 10px;
+}
+
+p.chan{
+	line-height: 19px;
+    margin-bottom: 10px;
+}
+
+a.doimau.chan{
+	color: #e1e1e1;
+	font-weight: 300;
+}
+
+a.doimau.chan:hover{
+	color: #e70930;
+	transition: 0.3s;
+}
+
+span.chan{
+	padding-left: 10px;
+}
+
+.imgchan {
+    padding-right: 4px;
+    padding-top: 6px;
+    -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+.imgchan:hover {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+ul.cpr{
+	float: right;
+}
+
+ul.cpr i{
+	color:#191818 ;
+    width: 20px;
+    height: 20px;
+    background-color:#e1e1e1;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+ul.cpr i:hover{
+	background-color: #e70930;
+	transition: 0.3s;
+}
+
+.cp{
+	border-top: 1px solid rgba(236, 232, 232, 0.42);
+	padding-top: 10px;
+	margin: 16px 0px 0px 0px;
+}
+
+i.len{
+	float: right;
+    position: fixed;
+    z-index: 2;
+    bottom: 50px;
+    color: #e1e1e1;
+    width: 40px;
+    height: 40px;
+    background-color: #e70930;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    font-size: 18px;
+    transition: 0.3s;
+    cursor: pointer;
+    opacity: 0.5;
+    right: -100px;
+}
+
+i.len:hover{
+	bottom:55px;
+	opacity: 1;
+}
+
+.lenvao{
+	right: 50px!important;
+}
+@media(max-width: 768px){
+	.lg{
+		width: 80px;
+		padding-top: 12px;
+
+	}
+	.tintrai .tin1{
+		width: 100%;
+		height: 300px;
+	}
+	.tin1 img.layer1{
+		width: 100%;
+		height: 300px;
+	}
+	.tinphai .post{
+		margin-top: 220px;
+	}
+}
+@media(max-width: 576px){
+	/*tin1*/
+	.tintrai .tin1{
+		width: 100%;
+		height: 200px;
+		margin-bottom: 20px;
+	}
+	.tin1 img.layer1{
+		width: 100%;
+		height: 200px;
+	}
+	.tieude{
+		font-size: 20px;
+	}
+	.ngaythang{
+		font-size: 10px;
+		top: 70px;
+	}
+	.tab a{
+		font-size:13px;
+		font-weight: bold;
+		width: 30px;
+		height: 30px;
+		border:2px solid #dd0b30 ;
+		text-align: center;
+		border-radius: 50%;
+		display: block;
+		line-height: 30px;
+
+	}
+	.tab p{
+		padding-top: 5px;
+		float: right;
+		font-size:  13px;
+		color: #191818;
+		}
+		/*het tin trai*/
+	.tin .thoigian{
+		width: 30px;
+		height: 30px;
+	}
+	.thoigian .ngay{
+		font-size: 15px;
+		padding-top: 3px;
+		margin-bottom: -3px;
+	}
+	.thoigian p.thangnam{
+		font-size: 5px;
+	}
+	
+	.carousel-item	 img{
+		width: 100%;
+	}
+	.footer{
+		height: auto;
+	}
+
+	i.len{
+		right: -100px;
+		bottom: 100px;
+	}
+
+	i.len:hover{
+		bottom:105px;
+		opacity: 1;
+	}
+
+	.lenvao{
+		right: 20px!important;
+	}
+}
+@media(max-width: 576px){
+	a.nav-link{
+		text-align: center;
+		border-bottom: 1px solid gray;
+	}
+	.navbar-toggleable-xs .navbar-nav .nav-item{
+		margin-left: 45px;
+	}
+}
+@media(max-width: 576px){
+	
+	.slidetren{
+		height: 250px;
+	}
+
+	.slidetren .anhbg{
+		width: auto;
+	}
+	.slidetren .layerchu{
+		width: 320px;
+		margin-left: -160px;
+	}
+	.layerchu h3{
+		font-size: 30px;
+	}
+
+	.tdphu.so2{
+		font-size: 13px;
+		line-height: 23px;
+	}
+	
+}
+
+/*háº¿tfooter*/

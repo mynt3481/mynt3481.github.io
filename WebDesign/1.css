@@ -1,0 +1,122 @@
+*{margin: 0; padding: 0;} 
+
+.body{
+	font-family: "time new roman";
+}
+
+.nenmenu{
+	
+	background-color: #414141;
+	position: relative;
+}
+
+.menutren{
+	position: relative;
+}
+
+.nav-tabs .nav-link{
+	padding:10px;
+	margin-top: 15px;
+}
+
+a.menu.nav-link {
+	background-color: gray;
+	width: 115px;
+	display: block;
+	color: white;
+	font-family: "time new roman";
+	font-size: 15px;
+	text-align: center;
+	border-radius: 0px!important;
+	text-transform: uppercase;
+}
+
+img.logo{
+	position: absolute;
+	z-index: 1;
+	top:-50px;
+	left: 0px;
+}
+.search{
+	border: 1px solid #E0E0E0;
+	padding: 7px;
+	margin-top: 20px;
+	position: relative;
+    left: -14px;
+    color: #797a78;
+    width: 290px;
+
+}
+
+div.anhbt{
+	float: left;
+	margin-right:  20px;
+
+}
+
+.so2{
+	padding-left: 0px;
+}
+
+.tdt{
+	font-family: "time new roman";
+	color: #414141;
+	font-size: 34px;
+	font-weight: bold;
+}
+
+
+p.ngay{
+	font-size: 14px;
+	line-height: 44px;
+}
+
+span.db{
+	color: #289fb9;
+	text-decoration: underline;
+}
+
+span.cm{
+	color: #289fb9;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.ndbt p{
+	font-size: 17px;
+	line-height: 22px;
+	color: #797a78;
+}
+
+.motkhoi{
+
+	overflow: hidden;
+	margin-top: 32px;
+}
+
+.ndbp2{
+	border: 1px solid #E0E0E0;
+	padding: 32px;
+	margin-top: 32px;
+	
+}
+
+.ndbp2.so1{
+	height: 400px;
+	padding: 10px 32px;
+}
+
+.list-group-item{
+	width: 290px;
+	
+}
+
+.list-group-item:first-child{
+	border-top-color:transparent;
+}
+
+div.dropdown-menu.mnbp{
+	padding: 0px;
+	margin: 0px;
+}
+
